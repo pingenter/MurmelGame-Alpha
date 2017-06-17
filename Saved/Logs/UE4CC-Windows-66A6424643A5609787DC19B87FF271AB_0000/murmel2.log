@@ -1,0 +1,544 @@
+﻿Log file open, 06/17/17 00:09:21
+LogInit:Display: Running engine for game: murmel2
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1025578272) SRandInit(-1025578272).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.072564
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: G:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.16-22.09.23:392][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-22.09.23:392][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.16-22.09.23:407][  0]LogInit: Computer: GREMMLINATOR
+[2017.06.16-22.09.23:407][  0]LogInit: User: Gremmlin
+[2017.06.16-22.09.23:408][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.06.16-22.09.23:408][  0]LogInit: High frequency timer resolution =4.120126 MHz
+[2017.06.16-22.09.23:408][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.06.16-22.09.23:408][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.16-22.09.23:408][  0]LogMemory: Process Physical Memory: 262.75 MB used, 262.75 MB peak
+[2017.06.16-22.09.23:408][  0]LogMemory: Process Virtual Memory: 263.06 MB used, 263.06 MB peak
+[2017.06.16-22.09.23:408][  0]LogMemory: Physical Memory: 4090.73 MB used,  4083.39 MB free, 8174.12 MB total
+[2017.06.16-22.09.23:408][  0]LogMemory: Virtual Memory: 615.73 MB used,  4083.39 MB free, 8388608.00 MB total
+[2017.06.16-22.09.23:552][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2017.06.16-22.09.24:567][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.16-22.09.24:599][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.06.16-22.09.24:599][  0]LogD3D11RHI:       1969/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.16-22.09.24:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.16-22.09.24:611][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.16-22.09.24:611][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.16-22.09.24:611][  0]LogWindows: EnumDisplayDevices:
+[2017.06.16-22.09.24:611][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.06.16-22.09.24:611][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.06.16-22.09.24:612][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-22.09.24:612][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.16-22.09.24:612][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.16-22.09.24:612][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.16-22.09.24:612][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.16-22.09.24:613][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.16-22.09.24:613][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.06.16-22.09.24:613][  0]LogD3D11RHI:   Driver Version: 353.30 (internal:10.18.13.5330, unified:353.30)
+[2017.06.16-22.09.24:613][  0]LogD3D11RHI:      Driver Date: 6-17-2015
+[2017.06.16-22.09.24:613][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.16-22.09.24:624][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.06.16-22.09.24:624][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.06.16-22.09.24:624][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.16-22.09.24:641][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.16-22.09.24:645][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Intermediate/Shaders/WorkingDirectory/5684/).
+[2017.06.16-22.09.24:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gremmlin/AppData/Local/Temp/UnrealShaderWorkingDir/C2FEAF3B4397D7CA019CE2BB27DF6583/'.
+[2017.06.16-22.09.24:645][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.16-22.09.26:245][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.16-22.09.26:318][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.16-22.09.26:393][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.16-22.09.26:464][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.16-22.09.26:538][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.16-22.09.26:610][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.16-22.09.26:683][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.16-22.09.26:756][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.16-22.09.26:810][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.16-22.09.26:882][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.16-22.09.26:955][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.16-22.09.27:025][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.16-22.09.27:095][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.16-22.09.27:167][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.16-22.09.27:237][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.16-22.09.27:379][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.16-22.09.27:379][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.16-22.09.27:424][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.16-22.09.27:537][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.16-22.09.27:582][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.16-22.09.27:655][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.16-22.09.27:724][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.16-22.09.27:795][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.16-22.09.27:868][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.16-22.09.27:868][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.16-22.09.28:388][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache: Loaded boot cache 0.13s 50MB C:/Users/Gremmlin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Gremmlin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.16-22.09.28:517][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.16-22.09.28:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.16-22.09.28:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gremmlin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.16-22.09.28:576][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.16-22.09.28:576][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-22.09.28:576][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.16-22.09.29:049][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.16-22.09.29:056][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.16-22.09.29:337][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.16-22.09.29:389][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.16-22.09.29:442][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.16-22.09.29:442][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.16-22.09.29:442][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.16-22.09.30:211][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: murmel2, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3639395430
+[2017.06.16-22.09.30:257][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2017.06.16-22.09.30:308][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.020792 seconds
+[2017.06.16-22.09.30:316][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.16-22.09.30:316][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.16-22.09.30:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.16-22.09.30:387][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.16-22.09.32:278][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.16-22.09.32:318][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.16-22.09.32:859][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.16-22.09.33:306][  0]SourceControl: Info Source control is disabled
+[2017.06.16-22.09.33:307][  0]SourceControl: Info Source control is disabled
+[2017.06.16-22.09.33:361][  0]SourceControl: Info Source control is disabled
+[2017.06.16-22.09.33:413][  0]SourceControl: Info Source control is disabled
+[2017.06.16-22.09.33:756][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2017.06.16-22.09.33:756][  0]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2017.06.16-22.09.33:756][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2017.06.16-22.09.34:942][  0]LogEngine: Initializing Engine...
+[2017.06.16-22.09.34:943][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.16-22.09.35:105][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.16-22.09.35:105][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.16-22.09.35:267][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.16-22.09.35:289][  0]LogInit: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.16-22.09.35:299][  0]LogInit: FAudioDevice initialized.
+[2017.06.16-22.09.35:368][  0]LogDerivedDataCache: Saved boot cache 0.07s 50MB C:/Users/Gremmlin/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.16-22.09.35:388][  0]LogInit: Texture streaming: Enabled
+[2017.06.16-22.09.35:509][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.16-22.09.35:515][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={269A0628-4FF2-529E-4925-A3A284584FB3}
+[2017.06.16-22.09.35:622][  0]LogInit: Transaction tracking system initialized
+[2017.06.16-22.09.36:076][  0]BlueprintLog: New page: Editor Load
+[2017.06.16-22.09.37:296][  0]LocalizationService: Info Localization service is disabled
+[2017.06.16-22.09.38:276][  0]LogConsoleResponse:Display: 
+[2017.06.16-22.09.38:540][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.16-22.09.38:540][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.16-22.09.39:216][  0]LogFileCache: Scanning file cache for directory 'E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/' took 0.01s
+[2017.06.16-22.09.40:151][  0]SourceControl: Info Source control is disabled
+[2017.06.16-22.09.40:152][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.16-22.09.40:152][  0]LightingResults: New page: Lighting Build
+[2017.06.16-22.09.40:208][  0]MapCheck: New page: Map Check
+[2017.06.16-22.09.40:208][  0]LightingResults: New page: Lighting Build
+[2017.06.16-22.09.40:579][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.06.16-22.09.40:619][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.06.16-22.09.40:625][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.16-22.09.40:629][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.16-22.09.40:698][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.704ms to complete.
+[2017.06.16-22.09.40:698][  0]LogFileHelpers: Loading map 'Template_Default' took 0.546
+[2017.06.16-22.09.40:993][  0]LogCollectionManager: Loaded 1 collections in 0.001736 seconds
+[2017.06.16-22.09.41:088][  0]LogFileCache: Scanning file cache for directory 'E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Saved/Collections/' took 0.01s
+[2017.06.16-22.09.41:088][  0]LogFileCache: Scanning file cache for directory 'E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/Developers/Gremmlin/Collections/' took 0.01s
+[2017.06.16-22.09.41:088][  0]LogFileCache: Scanning file cache for directory 'E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/Collections/' took 0.01s
+[2017.06.16-22.09.41:088][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.06.16-22.09.41:088][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000000 seconds
+[2017.06.16-22.09.41:104][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2246 classes and 456 folders.
+[2017.06.16-22.09.41:180][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.16-22.09.41:231][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2017.06.16-22.09.41:281][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.16-22.09.41:407][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.16-22.09.41:414][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.16-22.09.41:487][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.16-22.09.41:488][  0]LogLoad: (Engine Initialization) Total time: 21.01 seconds
+[2017.06.16-22.09.41:488][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2017.06.16-22.09.41:488][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.16-22.09.41:502][  0]LogOcInput: OculusInput pre-init called
+[2017.06.16-22.09.41:524][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.16-22.09.41:526][  0]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.16-22.09.41:533][  0]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.16-22.09.41:540][  0]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.16-22.09.41:740][  0]LogRenderer: Reallocating scene render targets to support 768x540 NumSamples 1 (Frame:2).
+[2017.06.16-22.09.42:038][  3]LogAssetRegistry: Asset discovery search completed in 11.8046 seconds
+[2017.06.16-22.09.42:038][  3]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000008 seconds (found 0 objects)
+[2017.06.16-22.09.42:038][  3]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000032 seconds (updated 0 objects)
+[2017.06.16-22.09.42:268][ 20]Cmd: ACTOR HIDE SELECTED
+[2017.06.16-22.09.43:077][ 98]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.16-22.09.43:077][ 98]Can't find target actor or component.
+[2017.06.16-22.09.45:703][327]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-22.10.06:045][390]LogSlate: Took 0.000537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-22.10.06:148][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:182][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/maps/vulcano.umap.
+[2017.06.16-22.10.06:183][390]LoadErrors:Error: Error /Game/maps/vulcano : Can't find file for asset. /Game/meshes/vorsprung
+[2017.06.16-22.10.06:183][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:183][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/maps/vulcano.umap.
+[2017.06.16-22.10.06:184][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:184][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:184][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:184][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:201][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:201][390]LoadErrors: Info Failed to load /Game/meshes/vorsprung.vorsprung Referenced by LandscapeSplineSegment_6
+[2017.06.16-22.10.06:201][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:201][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:201][390]LoadErrors: Info Failed to load /Game/meshes/vorsprung.vorsprung Referenced by LandscapeSplineSegment_7
+[2017.06.16-22.10.06:201][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:202][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:202][390]LoadErrors: Info Failed to load /Game/meshes/vorsprung.vorsprung Referenced by LandscapeSplineSegment_8
+[2017.06.16-22.10.06:202][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:202][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:202][390]LoadErrors: Info Failed to load /Game/meshes/vorsprung.vorsprung Referenced by Landscape_0
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:203][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:204][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:204][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:204][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:204][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:204][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:205][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:205][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:205][390]LogLinker:Warning: Can't find file '/Game/meshes/vorsprung'
+[2017.06.16-22.10.06:205][390]LogLinker:Warning: Can't find file for asset '/Game/meshes/vorsprung' while loading NULL.
+[2017.06.16-22.10.06:244][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:244][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:244][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_101 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:244][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_101 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_102 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_102 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_103 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_103 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_104 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:245][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_104 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_105 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_105 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_106 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_106 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_107 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:246][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_107 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_94 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_94 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_98 0 (FlipX:0). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.15+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 842) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be almost at the same place
+[2017.06.16-22.10.06:247][390]LogPhysics:Warning: Failed to cook convex: /Game/maps/vulcano.vulcano:PersistentLevel.Landscape_0.SplineMeshComponent_98 0 (FlipX:1). The remaining elements will not get cooked.
+[2017.06.16-22.10.06:269][390]LogAIModule: Creating AISystem for world vulcano
+[2017.06.16-22.10.06:319][390]Cmd: MAP LOAD FILE="E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/maps/vulcano.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.16-22.10.06:319][390]LightingResults: New page: Lighting Build
+[2017.06.16-22.10.06:321][390]LoadErrors: New page: Loading map: vulcano.umap
+[2017.06.16-22.10.06:322][390]MapCheck: New page: Map Check
+[2017.06.16-22.10.06:322][390]LightingResults: New page: Lighting Build
+[2017.06.16-22.10.06:436][390]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.16-22.10.06:486][390]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.16-22.10.06:536][390]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.358ms to complete.
+[2017.06.16-22.10.06:536][390]LogFileHelpers: Loading map 'vulcano' took 0.218
+[2017.06.16-22.10.19:825][770]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.10.19:827][770]LogTemp:Display: Added material ShaderMap 0x0000000059EB2080 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.19:861][770]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x0000000059EB2080
+[2017.06.16-22.10.20:030][770]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.10.20:031][770]LogTemp:Display: Added material ShaderMap 0x000000005A092780 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.20:049][770]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x000000005A092780
+[2017.06.16-22.10.20:049][770]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.10.20:073][770]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.16-22.10.20:074][770]LogTemp:Display: Added material ShaderMap 0x0000000059FFCF00 with Material 0x000000005A1BBA00 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.20:077][770]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000000059FFCF00
+[2017.06.16-22.10.20:078][770]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.06.16-22.10.20:079][770]LogTemp:Display: Added material ShaderMap 0x0000000041DC1D00 with Material 0x000000004166DF00 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.20:082][770]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, GameThreadShaderMap 0x0000000041DC1D00
+[2017.06.16-22.10.20:083][770]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.16-22.10.20:084][770]LogTemp:Display: Added material ShaderMap 0x0000000041DC0800 with Material 0x000000004166E500 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.20:087][770]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x0000000041DC0800
+[2017.06.16-22.10.20:093][770]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.16-22.10.23:348][  9]LogTemp:Display: Finished compile of shader map 0x000000005A092780
+[2017.06.16-22.10.23:348][  9]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x000000005A092780, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.10.23:349][  9]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.10.23:534][ 23]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.10.23:534][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.10.23:534][ 23]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.10.23:534][ 23]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.10.23:928][ 40]LogTemp:Display: Finished compile of shader map 0x0000000059FFCF00
+[2017.06.16-22.10.23:928][ 40]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000000059FFCF00, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.06.16-22.10.23:928][ 40]LogTemp:Display: Marking material as finished 0x000000005A1BBA00
+[2017.06.16-22.10.24:099][ 46]LogTemp:Display: Finished compile of shader map 0x0000000041DC1D00
+[2017.06.16-22.10.24:099][ 46]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 complete, GameThreadShaderMap 0x0000000041DC1D00, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 as finished
+[2017.06.16-22.10.24:099][ 46]LogTemp:Display: Marking material as finished 0x000000004166DF00
+[2017.06.16-22.10.24:393][ 56]LogTemp:Display: Finished compile of shader map 0x0000000041DC0800
+[2017.06.16-22.10.24:393][ 56]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x0000000041DC0800, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.16-22.10.24:393][ 56]LogTemp:Display: Marking material as finished 0x000000004166E500
+[2017.06.16-22.10.31:440][776]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.10.31:441][776]LogTemp:Display: Added material ShaderMap 0x000000005EE64B80 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.31:456][776]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x000000005EE64B80
+[2017.06.16-22.10.31:456][776]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.10.31:516][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.06.16-22.10.31:517][776]LogTemp:Display: Added material ShaderMap 0x000000005A092780 with Material 0x000000005EC1EB00 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.31:520][776]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, GameThreadShaderMap 0x000000005A092780
+[2017.06.16-22.10.34:261][957]LogTemp:Display: Finished compile of shader map 0x000000005EE64B80
+[2017.06.16-22.10.34:261][957]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x000000005EE64B80, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.10.34:261][957]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.10.34:278][958]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.10.34:278][958]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.10.34:278][958]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.10.34:278][958]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.10.34:279][958]LogTemp:Display: Finished compile of shader map 0x000000005A092780
+[2017.06.16-22.10.34:279][958]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 complete, GameThreadShaderMap 0x000000005A092780, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 as finished
+[2017.06.16-22.10.34:279][958]LogTemp:Display: Marking material as finished 0x000000005EC1EB00
+[2017.06.16-22.10.38:577][291]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.10.38:579][291]LogTemp:Display: Added material ShaderMap 0x000000005A043580 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.38:594][291]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x000000005A043580
+[2017.06.16-22.10.38:594][291]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.10.38:617][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2017.06.16-22.10.38:618][291]LogTemp:Display: Added material ShaderMap 0x0000000059FFC480 with Material 0x0000000038738700 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.38:622][291]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, GameThreadShaderMap 0x0000000059FFC480
+[2017.06.16-22.10.42:718][566]LogTemp:Display: Finished compile of shader map 0x000000005A043580
+[2017.06.16-22.10.42:718][566]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x000000005A043580, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.10.42:718][566]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.10.42:758][568]LogTemp:Display: Finished compile of shader map 0x0000000059FFC480
+[2017.06.16-22.10.42:759][568]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 complete, GameThreadShaderMap 0x0000000059FFC480, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0 as finished
+[2017.06.16-22.10.42:759][568]LogTemp:Display: Marking material as finished 0x0000000038738700
+[2017.06.16-22.10.44:737][791]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.10.44:737][791]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.10.44:737][791]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.10.44:737][791]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.10.52:682][362]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.10.52:683][362]LogTemp:Display: Added material ShaderMap 0x000000005ED2CB80 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.10.52:698][362]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x000000005ED2CB80
+[2017.06.16-22.10.52:698][362]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.10.56:235][581]LogTemp:Display: Finished compile of shader map 0x000000005ED2CB80
+[2017.06.16-22.10.56:235][581]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x000000005ED2CB80, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.10.56:235][581]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.10.56:245][582]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.10.56:245][582]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.10.56:245][582]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.10.56:245][582]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.11.45:770][639]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.11.45:772][639]LogTemp:Display: Added material ShaderMap 0x0000000041DC1D00 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.45:789][639]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x0000000041DC1D00
+[2017.06.16-22.11.45:789][639]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.11.45:859][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.16-22.11.45:860][639]LogTemp:Display: Added material ShaderMap 0x0000000043CCF200 with Material 0x000000005EC1EB00 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.45:863][639]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_2, GameThreadShaderMap 0x0000000043CCF200
+[2017.06.16-22.11.45:865][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.16-22.11.45:866][639]LogTemp:Display: Added material ShaderMap 0x000000006316A400 with Material 0x000000005EC1F400 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.45:869][639]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000000006316A400
+[2017.06.16-22.11.49:172][881]LogTemp:Display: Finished compile of shader map 0x0000000041DC1D00
+[2017.06.16-22.11.49:172][881]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x0000000041DC1D00, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.11.49:172][881]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.11.49:763][912]LogTemp:Display: Finished compile of shader map 0x000000006316A400
+[2017.06.16-22.11.49:763][912]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000000006316A400, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.16-22.11.49:763][912]LogTemp:Display: Marking material as finished 0x000000005EC1F400
+[2017.06.16-22.11.49:765][912]LogTemp:Display: Finished compile of shader map 0x0000000043CCF200
+[2017.06.16-22.11.49:765][912]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_2 complete, GameThreadShaderMap 0x0000000043CCF200, marking material FMatExpressionPreview MaterialExpressionTextureSample_2 as finished
+[2017.06.16-22.11.49:765][912]LogTemp:Display: Marking material as finished 0x000000005EC1EB00
+[2017.06.16-22.11.49:912][923]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.11.49:913][923]LogTemp:Display: Added material ShaderMap 0x0000000063008100 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.49:929][923]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x0000000063008100
+[2017.06.16-22.11.49:929][923]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.11.49:931][923]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2017.06.16-22.11.49:932][923]LogTemp:Display: Added material ShaderMap 0x000000005F509D00 with Material 0x0000000059E7C100 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.49:935][923]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, GameThreadShaderMap 0x000000005F509D00
+[2017.06.16-22.11.52:808][ 15]LogTemp:Display: Finished compile of shader map 0x0000000063008100
+[2017.06.16-22.11.52:808][ 15]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x0000000063008100, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.11.52:808][ 15]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.11.52:827][ 16]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.11.52:827][ 16]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.11.52:827][ 16]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.11.52:827][ 16]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.11.53:021][ 22]LogTemp:Display: Finished compile of shader map 0x000000005F509D00
+[2017.06.16-22.11.53:021][ 22]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1 complete, GameThreadShaderMap 0x000000005F509D00, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1 as finished
+[2017.06.16-22.11.53:021][ 22]LogTemp:Display: Marking material as finished 0x0000000059E7C100
+[2017.06.16-22.11.56:312][179]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.11.56:313][179]LogTemp:Display: Added material ShaderMap 0x000000004DDB0B80 with Material 0x0000000059E91A80 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.56:329][179]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x000000004DDB0B80
+[2017.06.16-22.11.56:329][179]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.11.56:400][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.16-22.11.56:402][179]LogTemp:Display: Added material ShaderMap 0x000000005EC0C100 with Material 0x000000005F61D000 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.56:405][179]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000000005EC0C100
+[2017.06.16-22.11.56:406][179]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, compiling. 
+[2017.06.16-22.11.56:408][179]LogTemp:Display: Added material ShaderMap 0x0000000038713C80 with Material 0x000000005F61DC00 to ShaderMapsBeingCompiled
+[2017.06.16-22.11.56:411][179]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1, GameThreadShaderMap 0x0000000038713C80
+[2017.06.16-22.11.59:844][354]LogTemp:Display: Finished compile of shader map 0x000000005EC0C100
+[2017.06.16-22.11.59:844][354]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000000005EC0C100, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.06.16-22.11.59:844][354]LogTemp:Display: Marking material as finished 0x000000005F61D000
+[2017.06.16-22.11.59:847][354]LogTemp:Display: Finished compile of shader map 0x000000004DDB0B80
+[2017.06.16-22.11.59:847][354]LogTemp:Display: Shader map vorsprung_mat_1 complete, GameThreadShaderMap 0x000000004DDB0B80, marking material vorsprung_mat_1 as finished
+[2017.06.16-22.11.59:847][354]LogTemp:Display: Marking material as finished 0x0000000059E91A80
+[2017.06.16-22.11.59:854][354]LogTemp:Display: Finished compile of shader map 0x0000000038713C80
+[2017.06.16-22.11.59:854][354]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1 complete, GameThreadShaderMap 0x0000000038713C80, marking material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_1 as finished
+[2017.06.16-22.11.59:854][354]LogTemp:Display: Marking material as finished 0x000000005F61DC00
+[2017.06.16-22.12.00:154][355]MaterialEditorStats: Info Base pass shader with static lighting: 108 instructions
+[2017.06.16-22.12.00:154][355]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 82 instructions
+[2017.06.16-22.12.00:154][355]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.16-22.12.00:154][355]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.16-22.12.35:353][480]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.16-22.12.36:790][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:790][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/meshes/lantern_metal.uasset.
+[2017.06.16-22.12.36:790][515]LoadErrors:Error: Error /Game/meshes/lantern_metal : Can't find file for asset. /Game/objects_and_mats/bake_target_Tex
+[2017.06.16-22.12.36:790][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:790][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading E:/gremmlin daten/desktop/ue4/murmel game LD/murmel2/Content/meshes/lantern_metal.uasset.
+[2017.06.16-22.12.36:794][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:794][515]LoadErrors: Info Failed to load /Game/objects_and_mats/bake_target_Tex.bake_target_Tex Referenced by MaterialExpressionTextureObject_1
+[2017.06.16-22.12.36:794][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading NULL.
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:795][515]LoadErrors: Info Failed to load /Game/objects_and_mats/bake_target_Tex.bake_target_Tex Referenced by MaterialExpressionTextureSample_3
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading NULL.
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:795][515]LoadErrors: Info Failed to load /Game/objects_and_mats/bake_target_Tex.bake_target_Tex Referenced by MaterialExpressionTextureSample_8
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading NULL.
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file '/Game/objects_and_mats/bake_target_Tex'
+[2017.06.16-22.12.36:795][515]LoadErrors: Info Failed to load /Game/objects_and_mats/bake_target_Tex.bake_target_Tex Referenced by MaterialExpressionTextureSample_9
+[2017.06.16-22.12.36:795][515]LogLinker:Warning: Can't find file for asset '/Game/objects_and_mats/bake_target_Tex' while loading NULL.
+[2017.06.16-22.12.36:808][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:809][515]LogMaterial:Warning: Failed to compile Material /Game/meshes/lantern_metal.lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:809][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:809][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:815][515]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.16-22.12.36:832][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:833][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_0 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:833][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:833][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:836][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:837][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_5 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:837][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:837][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:841][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:842][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_5 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:842][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:842][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:843][515]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.16-22.12.36:846][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:847][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_7 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:847][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:847][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:849][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:850][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_7 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:850][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:850][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:851][515]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.16-22.12.36:854][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:855][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_8 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:855][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:855][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:857][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:858][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_8 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:858][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:858][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:858][515]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.16-22.12.36:861][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:862][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_9 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:862][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:862][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:864][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:865][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_9 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:865][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:865][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:865][515]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2017.06.16-22.12.36:868][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:869][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_9 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:869][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:869][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:871][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:872][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_8 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:872][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:872][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:874][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:874][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_7 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:874][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:874][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:876][515]LogMaterial: Missing cached shader map for material lantern_metal, compiling. 
+[2017.06.16-22.12.36:877][515]LogMaterial:Warning: Failed to compile Material Instance /Game/maps/vulcano.LandscapeMaterialInstanceConstant_5 with Base lantern_metal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.16-22.12.36:877][515]LogMaterial:Warning: 	(Node TextureObject) Texture Object> Requires valid texture
+[2017.06.16-22.12.36:877][515]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2017.06.16-22.12.36:877][515]LogMaterial: 0.01 seconds spent updating 1 materials, 8 interfaces, 0 instances, 4 with static permutations.
+[2017.06.16-22.12.48:021][ 87]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2017.06.16-22.12.48:022][ 87]LogTemp:Display: Added material ShaderMap 0x0000000064262080 with Material 0x0000000063358280 to ShaderMapsBeingCompiled
+[2017.06.16-22.12.58:975][ 87]LogTemp:Display: Finished compile of shader map 0x0000000064262080
+[2017.06.16-22.12.58:975][ 87]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x0000000064262080, marking material WorldGridMaterial as finished
+[2017.06.16-22.12.58:975][ 87]LogTemp:Display: Marking material as finished 0x0000000063358280
+[2017.06.16-22.12.58:991][ 87]LogMaterial: 10.97 seconds spent updating 1 materials, 1 interfaces, 0 instances, 4 with static permutations.
+[2017.06.16-22.12.59:002][ 87]LogMaterial: Missing cached shader map for material vorsprung_mat_1, compiling. 
+[2017.06.16-22.12.59:003][ 87]LogTemp:Display: Added material ShaderMap 0x00000000662DE780 with Material 0x0000000063358280 to ShaderMapsBeingCompiled
+[2017.06.16-22.12.59:051][ 87]LogTemp:Display: Kicking off shader compilation for vorsprung_mat_1, GameThreadShaderMap 0x00000000662DE780
+[2017.06.16-22.12.59:052][ 87]LogTemp:Display: Added shader map 0x00000000662DE780 from material 0x0000000063359900
+[2017.06.16-22.12.59:052][ 87]LogTemp:Display: Found existing compiling shader for material vorsprung_mat_1, linking to other GameThreadShaderMap 0x00000000662DE780
+[2017.06.16-22.12.59:053][ 87]LogTemp:Display: Added shader map 0x00000000662DE780 from material 0x000000006335B100
+[2017.06.16-22.12.59:053][ 87]LogTemp:Display: Found existing compiling shader for material vorsprung_mat_1, linking to other GameThreadShaderMap 0x00000000662DE780
+[2017.06.16-22.12.59:054][ 87]LogTemp:Display: Added shader map 0x00000000662DE780 from material 0x0000000063374880
+[2017.06.16-22.12.59:054][ 87]LogTemp:Display: Found existing compiling shader for material vorsprung_mat_1, linking to other GameThreadShaderMap 0x00000000662DE780
+[2017.06.16-22.12.59:054][ 87]LogMaterial: 0.06 seconds spent updating 1 materials, 4 interfaces, 0 instances, 4 with static permutations.
+[2017.06.16-22.13.10:540][195]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'GCObjectReferencer_0' or package '/Engine/Transient'.
